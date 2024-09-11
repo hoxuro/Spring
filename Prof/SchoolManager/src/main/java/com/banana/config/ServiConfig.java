@@ -6,8 +6,11 @@ import com.banana.services.StudentsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 
 @Configuration
+@PropertySource("classpath:application.properties")
+@PropertySource("classpath:application-prod.properties")
 public class ServiConfig {
 
     @Autowired

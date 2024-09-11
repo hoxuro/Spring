@@ -8,7 +8,7 @@ import org.springframework.context.annotation.*;
 
 @Configuration
 @PropertySource("classpath:application.properties")
-@Import({RepoConfig.class, ServiConfig.class})
+@Import({RepoConfig.class, ServiConfig.class, ConfigDev.class, ConfigProd.class})
 public class SpringConfig {
 
 
