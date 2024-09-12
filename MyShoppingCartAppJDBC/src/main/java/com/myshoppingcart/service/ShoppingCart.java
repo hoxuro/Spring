@@ -5,12 +5,14 @@ import com.myshoppingcart.model.Compra;
 import com.myshoppingcart.model.Producto;
 import com.myshoppingcart.persistence.ICompraRepository;
 import lombok.Setter;
+import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Iterator;
 
 @Setter
+@Service
 public class ShoppingCart implements IShoppingCart {
 
     private ArrayList<Producto> items;

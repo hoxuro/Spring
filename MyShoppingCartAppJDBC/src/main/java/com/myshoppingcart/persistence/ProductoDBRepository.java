@@ -4,13 +4,23 @@ import com.myshoppingcart.exception.ProductNotFoundException;
 import com.myshoppingcart.model.Producto;
 import lombok.Setter;
 
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Repository;
+
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
 @Setter
+@Repository
 public class ProductoDBRepository implements IProductoRepository {
 
+    private Logger logger = LoggerFactory.getLogger(ProductoDBRepository.class);
+
+    @Value("${db_url}")
     private String connUrl;
 
     @Override
@@ -20,13 +30,13 @@ public class ProductoDBRepository implements IProductoRepository {
 
         try (
                 Connection conn = DriverManager.getConnection(connUrl);
-                // ordenes sql
                 PreparedStatement pstm = conn.prepareStatement(sql);
         ) {
+
             pstm.setInt(1, id);
             ResultSet rs = pstm.executeQuery();
             if (rs.next()) {
-                prod = new Producto(rs.getInt("pid"), rs.getString("codigo"), rs.getString("marca"),
+                prod = new Producto(rs.getInt("pid"), rs.getString("codigo"), rs.getString("marca"), rs.getString("nombre"),
                         rs.getString("tipo"), rs.getInt("precio"), rs.getInt("existencias"));
             } else {
                 throw new ProductNotFoundException();
@@ -48,7 +58,7 @@ public class ProductoDBRepository implements IProductoRepository {
                 ResultSet rs = pstm.executeQuery();
         ) {
             while (rs.next()) {
-                listADevolver.add(new Producto(rs.getInt("pid"), rs.getString("codigo"), rs.getString("marca"),
+                listADevolver.add(new Producto(rs.getInt("pid"), rs.getString("codigo"), rs.getString("marca"), rs.getString("nombre"),
                         rs.getString("tipo"), rs.getInt("precio"), rs.getInt("existencias")));
             }
         }
@@ -73,6 +83,7 @@ public class ProductoDBRepository implements IProductoRepository {
                         rs.getInt("pid"),
                         rs.getString("codigo"),
                         rs.getString("marca"),
+                        rs.getString("nombre"),
                         rs.getString("tipo"),
                         rs.getInt("precio"),
                         rs.getInt("existencias")
@@ -85,7 +96,7 @@ public class ProductoDBRepository implements IProductoRepository {
 
     @Override
     public Producto insertarProducto(Producto prod) throws Exception {
-        String sql = "INSERT INTO producto (`pid`, `codigo`, `marca`, `tipo`, `precio`, `existencias`)  values (NULL,?,?,?,?,?)";
+        String sql = "INSERT INTO producto (`pid`, `codigo`, `marca`, `nombre`, `tipo`, `precio`, `existencias`)  values (NULL,?,?,?,?,?,?)";
 
         try (
                 Connection conn = DriverManager.getConnection(connUrl);
@@ -93,9 +104,10 @@ public class ProductoDBRepository implements IProductoRepository {
         ) {
             stmt.setInt(1, Integer.parseInt(prod.getCodigo()));
             stmt.setString(2, prod.getMarca());
-            stmt.setString(3, prod.getTipo());
-            stmt.setDouble(4, prod.getPrecio());
-            stmt.setInt(5, prod.getExistencias());
+            stmt.setString(3, prod.getNombre());
+            stmt.setString(4, prod.getTipo());
+            stmt.setDouble(5, prod.getPrecio());
+            stmt.setInt(6, prod.getExistencias());
 
             int rows = stmt.executeUpdate();
 

@@ -5,28 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9d50d9e-8aa3-4fd9-a049-6d75ae95dad5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/createdb_and_user.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/exception/ProductNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/exception/UsuarioNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/model/Compra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/model/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/model/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/CompraDBRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/ICompraRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/IProductoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/IUsuarioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/ProductoDBRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/UsuarioDBRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/UsuarioInMemoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/service/IShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/service/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myshoppingcart/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myshoppingcart/persistence/CompraDBRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myshoppingcart/persistence/ProductoDBRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myshoppingcart/persistence/UsuarioDBRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myshoppingcart/service/ShoppingCartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/model/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/model/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/CompraDBRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/CompraDBRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/ProductoDBRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/ProductoDBRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/UsuarioDBRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/UsuarioDBRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/UsuarioInMemoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/UsuarioInMemoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/service/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/service/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,12 +53,29 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.App.executor": "Run",
+    "JUnit.AppTest.contextLoads.executor": "Run",
+    "JUnit.AppTest.executor": "Run",
+    "JUnit.CompraDBRepositoryTest.dadaCompraValida_cuandoinsertCompra_entoncesOK.executor": "Run",
+    "JUnit.CompraDBRepositoryTest.executor": "Run",
+    "JUnit.ProductoDBRepositoryTest.dadoUnProductoNoValido_cuandoInserto_entoncesIDvalido.executor": "Run",
+    "JUnit.ProductoDBRepositoryTest.dadoUnProducto_cuandoActualizoNoValid_entoncesExcepcion.executor": "Run",
+    "JUnit.ProductoDBRepositoryTest.dadoUnProducto_cuandoActualizo_entoncesOk.executor": "Run",
+    "JUnit.ProductoDBRepositoryTest.dadoUnProducto_cuandoElimino_entoncesOk.executor": "Run",
+    "JUnit.ProductoDBRepositoryTest.dadoUnProducto_cuandoInserto_entoncesIDvalido.executor": "Run",
+    "JUnit.ProductoDBRepositoryTest.dadosProductos_cuandogetUserProductsUsuarioEnDB_entoncesProductos.executor": "Run",
+    "JUnit.ProductoDBRepositoryTest.dadosProductos_cuandogetUserProductsUsuarioNoEnDB_entoncesVacio.executor": "Run",
+    "JUnit.ProductoDBRepositoryTest.executor": "Run",
+    "JUnit.ProductoDBRepositoryTest.testBeans.executor": "Run",
+    "JUnit.ShoppingCartTest.executor": "Run",
+    "JUnit.UsuarioDBRepositoryTest.dadosUsuarios_cuandoExisteUsuarioEnDB_entoncesOK.executor": "Run",
+    "JUnit.UsuarioDBRepositoryTest.dadosUsuarios_cuandogetUsuarioNoEnDB_entoncesExcepcion.executor": "Run",
+    "JUnit.UsuarioDBRepositoryTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/amezc/IdeaProjects/spring5/SchoolManager",
+    "last_opened_file_path": "C:/Users/amezc/IdeaProjects/spring5/MyShoppingCartApp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,6 +96,94 @@
       <recent name="C:\Users\amezc\Documents\Spring\Spring\MyShoppingCartAppJDBC" />
     </key>
   </component>
+  <component name="RunManager" selected="JUnit.ShoppingCartTest">
+    <configuration name="CompraDBRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyShoppingCartAppJDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myshoppingcart.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myshoppingcart.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.myshoppingcart.persistence.CompraDBRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyShoppingCartAppJDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myshoppingcart.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myshoppingcart.service" />
+      <option name="MAIN_CLASS_NAME" value="com.myshoppingcart.service.ShoppingCartTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioDBRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyShoppingCartAppJDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myshoppingcart.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myshoppingcart.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.myshoppingcart.persistence.UsuarioDBRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioDBRepositoryTest.dadosUsuarios_cuandoExisteUsuarioEnDB_entoncesOK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyShoppingCartAppJDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myshoppingcart.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myshoppingcart.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.myshoppingcart.persistence.UsuarioDBRepositoryTest" />
+      <option name="METHOD_NAME" value="dadosUsuarios_cuandoExisteUsuarioEnDB_entoncesOK" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioDBRepositoryTest.dadosUsuarios_cuandogetUsuarioNoEnDB_entoncesExcepcion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyShoppingCartAppJDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myshoppingcart.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myshoppingcart.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.myshoppingcart.persistence.UsuarioDBRepositoryTest" />
+      <option name="METHOD_NAME" value="dadosUsuarios_cuandogetUsuarioNoEnDB_entoncesExcepcion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ShoppingCartTest" />
+        <item itemvalue="JUnit.UsuarioDBRepositoryTest.dadosUsuarios_cuandogetUsuarioNoEnDB_entoncesExcepcion" />
+        <item itemvalue="JUnit.UsuarioDBRepositoryTest" />
+        <item itemvalue="JUnit.UsuarioDBRepositoryTest.dadosUsuarios_cuandoExisteUsuarioEnDB_entoncesOK" />
+        <item itemvalue="JUnit.CompraDBRepositoryTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -104,6 +203,10 @@
       <workItem from="1726048651230" duration="5827000" />
       <workItem from="1726062707433" duration="2250000" />
       <workItem from="1726066738161" duration="5021000" />
+      <workItem from="1726080606384" duration="2902000" />
+      <workItem from="1726120359567" duration="3451000" />
+      <workItem from="1726139849715" duration="413000" />
+      <workItem from="1726140269413" duration="3750000" />
     </task>
     <servers />
   </component>

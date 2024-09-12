@@ -13,6 +13,7 @@ public class Producto {
     private Integer mid;
     private String codigo;
     private String marca;
+    private String nombre;
     private String tipo;
     private double precio;
     private int existencias;

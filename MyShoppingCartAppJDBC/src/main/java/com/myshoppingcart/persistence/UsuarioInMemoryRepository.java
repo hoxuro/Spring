@@ -2,12 +2,16 @@ package com.myshoppingcart.persistence;
 
 import com.myshoppingcart.exception.UsuarioNotFoundException;
 import com.myshoppingcart.model.Usuario;
+import lombok.Setter;
+import org.springframework.stereotype.Repository;
 
 import java.security.SecureRandom;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
+@Setter
+//@Repository
 public class UsuarioInMemoryRepository implements IUsuarioRepository {
 
     // Here we are going to store our users
