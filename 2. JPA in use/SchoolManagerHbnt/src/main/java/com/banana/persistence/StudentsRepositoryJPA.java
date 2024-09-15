@@ -15,28 +15,25 @@ public class StudentsRepositoryJPA implements StudentsRepositoryInf {
     @Override
     public void add(Student estudiante) {
         em.getTransaction().begin();
-        if(estudiante.isValid()) {
+        if (estudiante.isValid()) {
             em.persist(estudiante);
             em.getTransaction().commit();
-        }else{
+        } else {
             em.getTransaction().rollback();
         }
-
     }
 
     @Override
     public Student update(Student estudiante) {
         em.getTransaction().begin();
-
         Student std = getById(estudiante.getId());
+
         std.setNombre(estudiante.getNombre());
         std.setApellido(estudiante.getApellido());
         std.setCurso(estudiante.getCurso());
 
 //        em.persist(std);
-        em.flush();
-
-        std.setNombre("Nombre cambiado");
+        std.setNombre("Nombre sin persist");
 
         em.getTransaction().commit();
 
@@ -52,6 +49,5 @@ public class StudentsRepositoryJPA implements StudentsRepositoryInf {
     public Student getById(Long id) {
         return em.find(Student.class, id);
     }
-
 
 }
