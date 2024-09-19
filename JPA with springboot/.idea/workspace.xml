@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a190ff53-97cb-4858-b145-e55456646252" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/sql/createdb_and_user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/src/main/java/com/banana/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/src/main/java/com/banana/config/PersistenceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/src/main/java/com/banana/config/PropertiesConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/src/main/java/com/banana/config/PropertiesConfigDev.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/src/main/java/com/banana/config/ServicesConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/src/main/java/com/banana/config/SpringConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/src/main/java/com/banana/models/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/src/main/java/com/banana/models/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/src/main/java/com/banana/persistence/SchoolsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/src/main/java/com/banana/persistence/SchoolsRepositoryInf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/src/main/java/com/banana/persistence/SchoolsRepositoryJPA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/src/main/java/com/banana/persistence/StudentsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/src/main/java/com/banana/persistence/StudentsRepositoryInf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/src/main/java/com/banana/persistence/StudentsRepositoryJPA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/src/main/java/com/banana/services/IStudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/src/main/java/com/banana/services/StudentsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/src/main/java/com/banana/util/JPAUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/src/main/resources/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/src/test/java/com/banana/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/src/test/java/com/banana/config/ReposConfigTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/src/test/java/com/banana/config/ServicesConfigTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/src/test/java/com/banana/persistence/SchoolsRepositoryInfTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/src/test/java/com/banana/persistence/StudentsRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. JPA Intro/SchoolManagerHbnt/src/test/java/com/banana/services/StudentsServiceITest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/sql/createdb_and_user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/main/java/com/banana/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/main/java/com/banana/config/PersistenceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/main/java/com/banana/config/PropertiesConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/main/java/com/banana/config/PropertiesConfigDev.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/main/java/com/banana/config/ReposConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/main/java/com/banana/config/ServicesConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/main/java/com/banana/config/SpringConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/main/java/com/banana/models/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/main/java/com/banana/models/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/main/java/com/banana/persistence/SchoolsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/main/java/com/banana/persistence/SchoolsRepositoryInf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/main/java/com/banana/persistence/SchoolsRepositoryJPA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/main/java/com/banana/persistence/StudentsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/main/java/com/banana/persistence/StudentsRepositoryInf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/main/java/com/banana/persistence/StudentsRepositoryJPA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/main/java/com/banana/services/IStudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/main/java/com/banana/services/StudentsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/main/java/com/banana/util/JPAUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/main/resources/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/test/java/com/banana/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/test/java/com/banana/config/ReposConfigTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/test/java/com/banana/config/ServicesConfigTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/test/java/com/banana/persistence/SchoolsRepositoryInfTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/test/java/com/banana/persistence/StudentsRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. JPA in use/SchoolManagerHbnt/src/test/java/com/banana/services/StudentsServiceITest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation Config/SchoolManager/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation Config/SchoolManager/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation Config/SchoolManager/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation Config/SchoolManager/src/main/java/com/banana/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation Config/SchoolManager/src/main/java/com/banana/config/SpringConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation Config/SchoolManager/src/main/java/com/banana/models/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation Config/SchoolManager/src/main/java/com/banana/models/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation Config/SchoolManager/src/main/java/com/banana/persistence/StudentsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation Config/SchoolManager/src/main/java/com/banana/persistence/StudentsRepositoryInf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation Config/SchoolManager/src/main/java/com/banana/services/IStudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation Config/SchoolManager/src/main/java/com/banana/services/StudentsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JPA Intro/SchoolManagerHbnt/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JPA Intro/SchoolManagerHbnt/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/sql/createdb_and_user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/sql/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/sql/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/src/main/java/com/myshoppingcart/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/src/main/java/com/myshoppingcart/config/SpringConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/src/main/java/com/myshoppingcart/exception/ProductNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/src/main/java/com/myshoppingcart/exception/UsuarioNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/src/main/java/com/myshoppingcart/model/Compra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/src/main/java/com/myshoppingcart/model/Producto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/src/main/java/com/myshoppingcart/model/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/src/main/java/com/myshoppingcart/persistence/CompraDBRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/src/main/java/com/myshoppingcart/persistence/ICompraRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/src/main/java/com/myshoppingcart/persistence/IProductoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/src/main/java/com/myshoppingcart/persistence/IUsuarioRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/src/main/java/com/myshoppingcart/persistence/ProductoDBRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/src/main/java/com/myshoppingcart/persistence/UsuarioDBRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/src/main/java/com/myshoppingcart/persistence/UsuarioInMemoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/src/main/java/com/myshoppingcart/service/IShoppingCart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/src/main/java/com/myshoppingcart/service/ShoppingCart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/src/test/java/com/myshoppingcart/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/src/test/java/com/myshoppingcart/persistence/CompraDBRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/src/test/java/com/myshoppingcart/persistence/ProductoDBRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/src/test/java/com/myshoppingcart/persistence/UsuarioDBRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyShoppingCartAppJDBC/src/test/java/com/myshoppingcart/service/ShoppingCartTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/.idea/Prof.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/SchoolManager/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/SchoolManager/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/SchoolManager/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/SchoolManager/src/main/java/com/banana/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/SchoolManager/src/main/java/com/banana/config/ConfigDev.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/SchoolManager/src/main/java/com/banana/config/ConfigProd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/SchoolManager/src/main/java/com/banana/config/RepoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/SchoolManager/src/main/java/com/banana/config/ServiConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/SchoolManager/src/main/java/com/banana/config/SpringConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/SchoolManager/src/main/java/com/banana/models/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/SchoolManager/src/main/java/com/banana/models/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/SchoolManager/src/main/java/com/banana/persistence/StudentsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/SchoolManager/src/main/java/com/banana/persistence/StudentsRepositoryInf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/SchoolManager/src/main/java/com/banana/services/IStudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/SchoolManager/src/main/java/com/banana/services/StudentsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/SchoolManager/src/main/resources/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/SchoolManager/src/main/resources/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/SchoolManager/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/SchoolManager/src/test/java/com/banana/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/SchoolManager/src/test/java/com/banana/persistence/StudentsRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Profiles/SchoolManager/src/test/java/com/banana/services/StudentsServiceITest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Testing JUnit5/SchoolManager/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Testing JUnit5/SchoolManager/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Testing JUnit5/SchoolManager/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Testing JUnit5/SchoolManager/src/main/java/com/banana/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Testing JUnit5/SchoolManager/src/main/java/com/banana/config/SpringConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Testing JUnit5/SchoolManager/src/main/java/com/banana/models/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Testing JUnit5/SchoolManager/src/main/java/com/banana/models/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Testing JUnit5/SchoolManager/src/main/java/com/banana/persistence/StudentsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Testing JUnit5/SchoolManager/src/main/java/com/banana/persistence/StudentsRepositoryInf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Testing JUnit5/SchoolManager/src/main/java/com/banana/services/IStudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Testing JUnit5/SchoolManager/src/main/java/com/banana/services/StudentsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Testing JUnit5/SchoolManager/src/test/java/com/banana/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Testing JUnit5/SchoolManager/src/test/java/com/banana/persistence/StudentsRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Testing JUnit5/SchoolManager/src/test/java/com/banana/services/StudentsServiceITest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML Config/SchoolManager/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML Config/SchoolManager/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML Config/SchoolManager/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML Config/SchoolManager/src/main/java/com/banana/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML Config/SchoolManager/src/main/java/com/banana/models/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML Config/SchoolManager/src/main/java/com/banana/models/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML Config/SchoolManager/src/main/java/com/banana/persistence/StudentsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML Config/SchoolManager/src/main/java/com/banana/persistence/StudentsRepositoryInf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML Config/SchoolManager/src/main/java/com/banana/services/IStudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML Config/SchoolManager/src/main/java/com/banana/services/StudentsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML Config/SchoolManager/src/main/resources/beans.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2m7Kwxbbrkc7MoHlCwEv14r3zMd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/amezc/Documents/Spring/Spring/JPA with springboot/SchoolManager-JPA",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.300" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.300" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a190ff53-97cb-4858-b145-e55456646252" name="Changes" comment="" />
+      <created>1726422416949</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726422416949</updated>
+      <workItem from="1726422418158" duration="81000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
