@@ -62,6 +62,27 @@ public class ShoppingCart implements IShoppingCart {
             System.out.println("prod:" + item);
             try {
                 Compra compra = new Compra(null, new Usuario(), item, 1, LocalDate.now());
+
+                // OBTENEMOS EL PRODUCTO
+                Producto producto = repoCompras.findProduct(item.getPid());
+                compra.setProducto(producto);
+                double precio = producto.getPrecio();
+                int existencias = producto.getExistencias();
+
+                // ACTUALIZAR EXISTENCIAS PRODUCTO
+                producto.setExistencias(existencias - compra.getCantidad());
+                if (producto.getExistencias() < 0) {
+                    throw new Exception("Existencias insuficientes");
+                }
+
+                // OBTENER USUARIO Y ACTUALIZAR SALDO DE USUARIO
+                Usuario usuario = repoCompras.findUsuario(compra.getUsuario().getUid());
+                compra.setUsuario(usuario);
+                usuario.setSaldo(usuario.getSaldo() - precio * existencias);
+                if (usuario.getSaldo() < 0) {
+                    throw new Exception("Saldo insuficiente");
+                }
+
                 repoCompras.insertCompra(compra);
             } catch (Exception e) {
                 e.printStackTrace();

@@ -5,22 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9d50d9e-8aa3-4fd9-a049-6d75ae95dad5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myshoppingcart/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myshoppingcart/persistence/CompraDBRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myshoppingcart/persistence/ProductoDBRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myshoppingcart/persistence/UsuarioDBRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myshoppingcart/service/ShoppingCartTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/model/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/model/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/CompraDBRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/CompraDBRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/ProductoDBRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/ProductoDBRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/UsuarioDBRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/UsuarioDBRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/UsuarioInMemoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/UsuarioInMemoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/service/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/service/ShoppingCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8. MyShoppingCartAppJPA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../8. MyShoppingCartAppJPA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8. MyShoppingCartAppJPA/src/main/java/com/myshoppingcart/persistence/CompraJPARepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../8. MyShoppingCartAppJPA/src/main/java/com/myshoppingcart/persistence/CompraJPARepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8. MyShoppingCartAppJPA/src/main/java/com/myshoppingcart/persistence/ICompraRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../8. MyShoppingCartAppJPA/src/main/java/com/myshoppingcart/persistence/ICompraRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8. MyShoppingCartAppJPA/src/main/java/com/myshoppingcart/service/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../8. MyShoppingCartAppJPA/src/main/java/com/myshoppingcart/service/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8. MyShoppingCartAppJPA/src/test/java/com/myshoppingcart/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../8. MyShoppingCartAppJPA/src/test/java/com/myshoppingcart/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9. SchoolManager-JPA/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +66,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/amezc/IdeaProjects/spring5/MyShoppingCartApp",
+    "last_opened_file_path": "C:/Users/amezc/Documents/Spring/Spring/5. MyShoppingCartAppJDBC",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -207,6 +198,7 @@
       <workItem from="1726120359567" duration="3451000" />
       <workItem from="1726139849715" duration="413000" />
       <workItem from="1726140269413" duration="3750000" />
+      <workItem from="1727417645448" duration="2174000" />
     </task>
     <servers />
   </component>
