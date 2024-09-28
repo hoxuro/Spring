@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9d50d9e-8aa3-4fd9-a049-6d75ae95dad5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../5. MyShoppingCartAppJDBC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5. MyShoppingCartAppJDBC/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/CompraJPARepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/CompraJPARepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/ICompraRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/persistence/ICompraRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/service/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/service/ShoppingCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/myshoppingcart/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myshoppingcart/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9. SchoolManager-JPA/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,73 +36,73 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "JUnit.AppTest.contextLoads.executor": "Run",
-    "JUnit.AppTest.executor": "Run",
-    "JUnit.CompraDBRepositoryTest.dadaCompraProductoNoValido_cuandoinsertCompra_entoncesExcepcion.executor": "Run",
-    "JUnit.CompraDBRepositoryTest.dadaCompraProductoSinexistenciasSuficients_cuandoinsertCompra_entoncesExcepcion.executor": "Run",
-    "JUnit.CompraDBRepositoryTest.dadaCompraValida_cuandoinsertCompra_entoncesOK.executor": "Run",
-    "JUnit.CompraDBRepositoryTest.executor": "Run",
-    "JUnit.CompraDBRepositoryTest.testBeans.executor": "Run",
-    "JUnit.CompraJPARepositoryTest.dadaCompraProductoNoValido_cuandoinsertCompra_entoncesExcepcion.executor": "Run",
-    "JUnit.CompraJPARepositoryTest.dadaCompraValida_cuandoinsertCompra_entoncesOK.executor": "Run",
-    "JUnit.CompraJPARepositoryTest.testBeans.executor": "Run",
-    "JUnit.ProductoDBRepositoryTest.dadoUnProductoNoValido_cuandoInserto_entoncesIDvalido.executor": "Run",
-    "JUnit.ProductoDBRepositoryTest.dadoUnProducto_cuandoActualizoNoValid_entoncesExcepcion.executor": "Run",
-    "JUnit.ProductoDBRepositoryTest.dadoUnProducto_cuandoActualizo_entoncesOk.executor": "Run",
-    "JUnit.ProductoDBRepositoryTest.dadoUnProducto_cuandoElimino_entoncesOk.executor": "Run",
-    "JUnit.ProductoDBRepositoryTest.dadoUnProducto_cuandoInserto_entoncesIDvalido.executor": "Run",
-    "JUnit.ProductoDBRepositoryTest.dadosProductos_cuandogetUserProductsUsuarioEnDB_entoncesProductos.executor": "Run",
-    "JUnit.ProductoDBRepositoryTest.dadosProductos_cuandogetUserProductsUsuarioNoEnDB_entoncesVacio.executor": "Run",
-    "JUnit.ProductoDBRepositoryTest.executor": "Run",
-    "JUnit.ProductoDBRepositoryTest.testBeans.executor": "Run",
-    "JUnit.ProductoJPARepositoryTest.dadoUnProducto_cuandoActualizoNoValid_entoncesExcepcion.executor": "Run",
-    "JUnit.ProductoJPARepositoryTest.dadoUnProducto_cuandoActualizo_entoncesOk.executor": "Run",
-    "JUnit.ProductoJPARepositoryTest.dadoUnProducto_cuandoElimino_entoncesOk.executor": "Run",
-    "JUnit.ProductoJPARepositoryTest.dadoUnProducto_cuandoInserto_entoncesIDvalido.executor": "Run",
-    "JUnit.ProductoJPARepositoryTest.dadosProductos_cuandogetUserProductsUsuarioEnDB_entoncesProductos.executor": "Run",
-    "JUnit.ProductoJPARepositoryTest.testBeans.executor": "Run",
-    "JUnit.ShoppingCartTest.executor": "Run",
-    "JUnit.UsuarioDBRepositoryTest.dadoUsuarioExistente_cuandoActualiza_entonces_Ok.executor": "Run",
-    "JUnit.UsuarioDBRepositoryTest.dadoUsuarioNoExistente_cuandoActualiza_entonces_Excepccion.executor": "Run",
-    "JUnit.UsuarioDBRepositoryTest.dadoUsuario_cuandoDelete_entonces_Ok.executor": "Run",
-    "JUnit.UsuarioDBRepositoryTest.dadosUsuario_cuandoinsertarUsuarioEnDB_entoncesIdValido.executor": "Run",
-    "JUnit.UsuarioDBRepositoryTest.dadosUsuarios_cuandoExisteUsuarioEnDB_entoncesOK.executor": "Run",
-    "JUnit.UsuarioDBRepositoryTest.dadosUsuarios_cuandoExisteUsuarioNoEnDB_entoncesNOK.executor": "Run",
-    "JUnit.UsuarioDBRepositoryTest.dadosUsuarios_cuandogetUsuarioEnDB_entoncesUsuario.executor": "Run",
-    "JUnit.UsuarioDBRepositoryTest.dadosUsuarios_cuandogetUsuarioNoEnDB_entoncesExcepcion.executor": "Run",
-    "JUnit.UsuarioDBRepositoryTest.dadosUsuarios_cuandogetUsuariosEnDB_entoncesUsuarios.executor": "Run",
-    "JUnit.UsuarioDBRepositoryTest.executor": "Run",
-    "JUnit.UsuarioDBRepositoryTest.testBeans.executor": "Run",
-    "JUnit.UsuarioJPARepositoryTest.dadoUsuarioExistente_cuandoActualiza_entonces_Ok.executor": "Run",
-    "JUnit.UsuarioJPARepositoryTest.dadoUsuarioNoExistente_cuandoActualiza_entonces_Excepccion.executor": "Run",
-    "JUnit.UsuarioJPARepositoryTest.dadosUsuario_cuandoinsertarUsuarioEnDB_entoncesIdValido.executor": "Run",
-    "JUnit.UsuarioJPARepositoryTest.dadosUsuarios_cuandoExisteUsuarioEnDB_entoncesOK.executor": "Run",
-    "JUnit.UsuarioJPARepositoryTest.dadosUsuarios_cuandoExisteUsuarioNoEnDB_entoncesNOK.executor": "Run",
-    "JUnit.UsuarioJPARepositoryTest.dadosUsuarios_cuandogetUsuarioEnDB_entoncesUsuario.executor": "Run",
-    "JUnit.UsuarioJPARepositoryTest.dadosUsuarios_cuandogetUsuarioNoEnDB_entoncesExcepcion.executor": "Run",
-    "JUnit.UsuarioJPARepositoryTest.dadosUsuarios_cuandogetUsuariosEnDB_entoncesUsuarios.executor": "Run",
-    "JUnit.UsuarioJPARepositoryTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/amezc/Documents/Spring/Spring/10. JPARepositories",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/amezc/Documents/Spring/Spring/MyShoppingCartAppJDBC/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CompraDBRepositoryTest.dadaCompraProductoNoValido_cuandoinsertCompra_entoncesExcepcion.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CompraDBRepositoryTest.dadaCompraProductoSinexistenciasSuficients_cuandoinsertCompra_entoncesExcepcion.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CompraDBRepositoryTest.dadaCompraValida_cuandoinsertCompra_entoncesOK.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CompraDBRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CompraDBRepositoryTest.testBeans.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CompraJPARepositoryTest.dadaCompraProductoNoValido_cuandoinsertCompra_entoncesExcepcion.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CompraJPARepositoryTest.dadaCompraValida_cuandoinsertCompra_entoncesOK.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CompraJPARepositoryTest.testBeans.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductoDBRepositoryTest.dadoUnProductoNoValido_cuandoInserto_entoncesIDvalido.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductoDBRepositoryTest.dadoUnProducto_cuandoActualizoNoValid_entoncesExcepcion.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductoDBRepositoryTest.dadoUnProducto_cuandoActualizo_entoncesOk.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductoDBRepositoryTest.dadoUnProducto_cuandoElimino_entoncesOk.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductoDBRepositoryTest.dadoUnProducto_cuandoInserto_entoncesIDvalido.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductoDBRepositoryTest.dadosProductos_cuandogetUserProductsUsuarioEnDB_entoncesProductos.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductoDBRepositoryTest.dadosProductos_cuandogetUserProductsUsuarioNoEnDB_entoncesVacio.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductoDBRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductoDBRepositoryTest.testBeans.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductoJPARepositoryTest.dadoUnProducto_cuandoActualizoNoValid_entoncesExcepcion.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductoJPARepositoryTest.dadoUnProducto_cuandoActualizo_entoncesOk.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductoJPARepositoryTest.dadoUnProducto_cuandoElimino_entoncesOk.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductoJPARepositoryTest.dadoUnProducto_cuandoInserto_entoncesIDvalido.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductoJPARepositoryTest.dadosProductos_cuandogetUserProductsUsuarioEnDB_entoncesProductos.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductoJPARepositoryTest.testBeans.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ShoppingCartTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioDBRepositoryTest.dadoUsuarioExistente_cuandoActualiza_entonces_Ok.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioDBRepositoryTest.dadoUsuarioNoExistente_cuandoActualiza_entonces_Excepccion.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioDBRepositoryTest.dadoUsuario_cuandoDelete_entonces_Ok.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioDBRepositoryTest.dadosUsuario_cuandoinsertarUsuarioEnDB_entoncesIdValido.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioDBRepositoryTest.dadosUsuarios_cuandoExisteUsuarioEnDB_entoncesOK.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioDBRepositoryTest.dadosUsuarios_cuandoExisteUsuarioNoEnDB_entoncesNOK.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioDBRepositoryTest.dadosUsuarios_cuandogetUsuarioEnDB_entoncesUsuario.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioDBRepositoryTest.dadosUsuarios_cuandogetUsuarioNoEnDB_entoncesExcepcion.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioDBRepositoryTest.dadosUsuarios_cuandogetUsuariosEnDB_entoncesUsuarios.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioDBRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioDBRepositoryTest.testBeans.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioJPARepositoryTest.dadoUsuarioExistente_cuandoActualiza_entonces_Ok.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioJPARepositoryTest.dadoUsuarioNoExistente_cuandoActualiza_entonces_Excepccion.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioJPARepositoryTest.dadosUsuario_cuandoinsertarUsuarioEnDB_entoncesIdValido.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioJPARepositoryTest.dadosUsuarios_cuandoExisteUsuarioEnDB_entoncesOK.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioJPARepositoryTest.dadosUsuarios_cuandoExisteUsuarioNoEnDB_entoncesNOK.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioJPARepositoryTest.dadosUsuarios_cuandogetUsuarioEnDB_entoncesUsuario.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioJPARepositoryTest.dadosUsuarios_cuandogetUsuarioNoEnDB_entoncesExcepcion.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioJPARepositoryTest.dadosUsuarios_cuandogetUsuariosEnDB_entoncesUsuarios.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioJPARepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/amezc/Documents/Spring/Spring/8. MyShoppingCartAppJPA&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/amezc/Documents/Spring/Spring/MyShoppingCartAppJDBC/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.myshoppingcart.exceptions" />
@@ -236,6 +232,9 @@
       <workItem from="1727245973077" duration="1982000" />
       <workItem from="1727268858142" duration="590000" />
       <workItem from="1727337185012" duration="3475000" />
+      <workItem from="1727421667191" duration="1986000" />
+      <workItem from="1727436235784" duration="614000" />
+      <workItem from="1727545674118" duration="1432000" />
     </task>
     <servers />
   </component>
