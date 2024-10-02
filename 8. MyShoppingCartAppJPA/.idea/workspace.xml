@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9d50d9e-8aa3-4fd9-a049-6d75ae95dad5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../5. MyShoppingCartAppJDBC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5. MyShoppingCartAppJDBC/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +89,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/amezc/Documents/Spring/Spring/8. MyShoppingCartAppJPA&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/amezc/Documents/Spring/Spring/12. demo-springboot&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -235,6 +234,9 @@
       <workItem from="1727421667191" duration="1986000" />
       <workItem from="1727436235784" duration="614000" />
       <workItem from="1727545674118" duration="1432000" />
+      <workItem from="1727548972436" duration="502000" />
+      <workItem from="1727806861720" duration="1283000" />
+      <workItem from="1727850348756" duration="2896000" />
     </task>
     <servers />
   </component>
