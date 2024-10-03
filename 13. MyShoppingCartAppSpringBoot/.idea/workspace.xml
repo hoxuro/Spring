@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c9d50d9e-8aa3-4fd9-a049-6d75ae95dad5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/controllers/ProductoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myshoppingcart/controllers/UsuarioController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Exception" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2lv7MMXZs12MxoMecqv17MpWNe7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "JUnit.AppTest.contextLoads.executor": "Run",
+    "JUnit.AppTest.executor": "Run",
+    "JUnit.CompraDBRepositoryTest.dadaCompraProductoNoValido_cuandoinsertCompra_entoncesExcepcion.executor": "Run",
+    "JUnit.CompraDBRepositoryTest.dadaCompraProductoSinexistenciasSuficients_cuandoinsertCompra_entoncesExcepcion.executor": "Run",
+    "JUnit.CompraDBRepositoryTest.dadaCompraValida_cuandoinsertCompra_entoncesOK.executor": "Run",
+    "JUnit.CompraDBRepositoryTest.executor": "Run",
+    "JUnit.CompraDBRepositoryTest.testBeans.executor": "Run",
+    "JUnit.CompraJPARepositoryTest.dadaCompraProductoNoValido_cuandoinsertCompra_entoncesExcepcion.executor": "Run",
+    "JUnit.CompraJPARepositoryTest.dadaCompraValida_cuandoinsertCompra_entoncesOK.executor": "Run",
+    "JUnit.CompraJPARepositoryTest.testBeans.executor": "Run",
+    "JUnit.ProductoDBRepositoryTest.dadoUnProductoNoValido_cuandoInserto_entoncesIDvalido.executor": "Run",
+    "JUnit.ProductoDBRepositoryTest.dadoUnProducto_cuandoActualizoNoValid_entoncesExcepcion.executor": "Run",
+    "JUnit.ProductoDBRepositoryTest.dadoUnProducto_cuandoActualizo_entoncesOk.executor": "Run",
+    "JUnit.ProductoDBRepositoryTest.dadoUnProducto_cuandoElimino_entoncesOk.executor": "Run",
+    "JUnit.ProductoDBRepositoryTest.dadoUnProducto_cuandoInserto_entoncesIDvalido.executor": "Run",
+    "JUnit.ProductoDBRepositoryTest.dadosProductos_cuandogetUserProductsUsuarioEnDB_entoncesProductos.executor": "Run",
+    "JUnit.ProductoDBRepositoryTest.dadosProductos_cuandogetUserProductsUsuarioNoEnDB_entoncesVacio.executor": "Run",
+    "JUnit.ProductoDBRepositoryTest.executor": "Run",
+    "JUnit.ProductoDBRepositoryTest.testBeans.executor": "Run",
+    "JUnit.ProductoJPARepositoryTest.dadoUnProducto_cuandoActualizoNoValid_entoncesExcepcion.executor": "Run",
+    "JUnit.ProductoJPARepositoryTest.dadoUnProducto_cuandoActualizo_entoncesOk.executor": "Run",
+    "JUnit.ProductoJPARepositoryTest.dadoUnProducto_cuandoElimino_entoncesOk.executor": "Run",
+    "JUnit.ProductoJPARepositoryTest.dadoUnProducto_cuandoInserto_entoncesIDvalido.executor": "Run",
+    "JUnit.ProductoJPARepositoryTest.dadosProductos_cuandogetUserProductsUsuarioEnDB_entoncesProductos.executor": "Run",
+    "JUnit.ProductoJPARepositoryTest.testBeans.executor": "Run",
+    "JUnit.ShoppingCartTest.executor": "Run",
+    "JUnit.UsuarioDBRepositoryTest.dadoUsuarioExistente_cuandoActualiza_entonces_Ok.executor": "Run",
+    "JUnit.UsuarioDBRepositoryTest.dadoUsuarioNoExistente_cuandoActualiza_entonces_Excepccion.executor": "Run",
+    "JUnit.UsuarioDBRepositoryTest.dadoUsuario_cuandoDelete_entonces_Ok.executor": "Run",
+    "JUnit.UsuarioDBRepositoryTest.dadosUsuario_cuandoinsertarUsuarioEnDB_entoncesIdValido.executor": "Run",
+    "JUnit.UsuarioDBRepositoryTest.dadosUsuarios_cuandoExisteUsuarioEnDB_entoncesOK.executor": "Run",
+    "JUnit.UsuarioDBRepositoryTest.dadosUsuarios_cuandoExisteUsuarioNoEnDB_entoncesNOK.executor": "Run",
+    "JUnit.UsuarioDBRepositoryTest.dadosUsuarios_cuandogetUsuarioEnDB_entoncesUsuario.executor": "Run",
+    "JUnit.UsuarioDBRepositoryTest.dadosUsuarios_cuandogetUsuarioNoEnDB_entoncesExcepcion.executor": "Run",
+    "JUnit.UsuarioDBRepositoryTest.dadosUsuarios_cuandogetUsuariosEnDB_entoncesUsuarios.executor": "Run",
+    "JUnit.UsuarioDBRepositoryTest.executor": "Run",
+    "JUnit.UsuarioDBRepositoryTest.testBeans.executor": "Run",
+    "JUnit.UsuarioJPARepositoryTest.dadoUsuarioExistente_cuandoActualiza_entonces_Ok.executor": "Run",
+    "JUnit.UsuarioJPARepositoryTest.dadoUsuarioNoExistente_cuandoActualiza_entonces_Excepccion.executor": "Run",
+    "JUnit.UsuarioJPARepositoryTest.dadosUsuario_cuandoinsertarUsuarioEnDB_entoncesIdValido.executor": "Run",
+    "JUnit.UsuarioJPARepositoryTest.dadosUsuarios_cuandoExisteUsuarioEnDB_entoncesOK.executor": "Run",
+    "JUnit.UsuarioJPARepositoryTest.dadosUsuarios_cuandoExisteUsuarioNoEnDB_entoncesNOK.executor": "Run",
+    "JUnit.UsuarioJPARepositoryTest.dadosUsuarios_cuandogetUsuarioEnDB_entoncesUsuario.executor": "Run",
+    "JUnit.UsuarioJPARepositoryTest.dadosUsuarios_cuandogetUsuarioNoEnDB_entoncesExcepcion.executor": "Run",
+    "JUnit.UsuarioJPARepositoryTest.dadosUsuarios_cuandogetUsuariosEnDB_entoncesUsuarios.executor": "Run",
+    "JUnit.UsuarioJPARepositoryTest.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.App.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/amezc/Documents/Spring/13. MyShoppingCartAppSpringBoot",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/amezc/Documents/Spring/Spring/MyShoppingCartAppJDBC/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.myshoppingcart.exceptions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\amezc\Documents\Spring\Spring\MyShoppingCartAppJDBC" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.App">
+    <configuration name="CompraJPARepositoryTest.dadaCompraProductoNoValido_cuandoinsertCompra_entoncesExcepcion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyShoppingCartAppJDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myshoppingcart.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myshoppingcart.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.myshoppingcart.persistence.CompraJPARepositoryTest" />
+      <option name="METHOD_NAME" value="dadaCompraProductoNoValido_cuandoinsertCompra_entoncesExcepcion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompraJPARepositoryTest.dadaCompraProductoNoValido_cuandoinsertCompra_entoncesExcepcion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyShoppingCartAppJDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myshoppingcart.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myshoppingcart.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.myshoppingcart.persistence.CompraJPARepositoryTest" />
+      <option name="METHOD_NAME" value="dadaCompraProductoNoValido_cuandoinsertCompra_entoncesExcepcion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompraJPARepositoryTest.dadaCompraValida_cuandoinsertCompra_entoncesOK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyShoppingCartAppJDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myshoppingcart.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myshoppingcart.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.myshoppingcart.persistence.CompraJPARepositoryTest" />
+      <option name="METHOD_NAME" value="dadaCompraValida_cuandoinsertCompra_entoncesOK" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompraJPARepositoryTest.dadaCompraValida_cuandoinsertCompra_entoncesOK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyShoppingCartAppJDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myshoppingcart.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myshoppingcart.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.myshoppingcart.persistence.CompraJPARepositoryTest" />
+      <option name="METHOD_NAME" value="dadaCompraValida_cuandoinsertCompra_entoncesOK" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompraJPARepositoryTest.testBeans" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyShoppingCartAppJDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myshoppingcart.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myshoppingcart.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.myshoppingcart.persistence.CompraJPARepositoryTest" />
+      <option name="METHOD_NAME" value="testBeans" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductoJPARepositoryTest.dadoUnProducto_cuandoInserto_entoncesIDvalido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyShoppingCartAppJDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myshoppingcart.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myshoppingcart.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.myshoppingcart.persistence.ProductoJPARepositoryTest" />
+      <option name="METHOD_NAME" value="dadoUnProducto_cuandoInserto_entoncesIDvalido" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductoJPARepositoryTest.dadoUnProducto_cuandoInserto_entoncesIDvalido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyShoppingCartAppJDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myshoppingcart.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myshoppingcart.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.myshoppingcart.persistence.ProductoJPARepositoryTest" />
+      <option name="METHOD_NAME" value="dadoUnProducto_cuandoInserto_entoncesIDvalido" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioJPARepositoryTest.dadosUsuario_cuandoinsertarUsuarioEnDB_entoncesIdValido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyShoppingCartAppJDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myshoppingcart.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myshoppingcart.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.myshoppingcart.persistence.UsuarioJPARepositoryTest" />
+      <option name="METHOD_NAME" value="dadosUsuario_cuandoinsertarUsuarioEnDB_entoncesIdValido" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioJPARepositoryTest.dadosUsuario_cuandoinsertarUsuarioEnDB_entoncesIdValido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyShoppingCartAppJDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myshoppingcart.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myshoppingcart.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.myshoppingcart.persistence.UsuarioJPARepositoryTest" />
+      <option name="METHOD_NAME" value="dadosUsuario_cuandoinsertarUsuarioEnDB_entoncesIdValido" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="MyShoppingCartAppJPA" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.myshoppingcart.App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myshoppingcart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.App" />
+        <item itemvalue="JUnit.CompraJPARepositoryTest.dadaCompraValida_cuandoinsertCompra_entoncesOK" />
+        <item itemvalue="JUnit.CompraJPARepositoryTest.dadaCompraProductoNoValido_cuandoinsertCompra_entoncesExcepcion" />
+        <item itemvalue="JUnit.UsuarioJPARepositoryTest.dadosUsuario_cuandoinsertarUsuarioEnDB_entoncesIdValido" />
+        <item itemvalue="JUnit.ProductoJPARepositoryTest.dadoUnProducto_cuandoInserto_entoncesIDvalido" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.300" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.300" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9d50d9e-8aa3-4fd9-a049-6d75ae95dad5" name="Changes" comment="" />
+      <created>1726048650156</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726048650156</updated>
+      <workItem from="1726048651230" duration="5827000" />
+      <workItem from="1726062707433" duration="2250000" />
+      <workItem from="1726066738161" duration="5021000" />
+      <workItem from="1726080606384" duration="2902000" />
+      <workItem from="1726120359567" duration="3451000" />
+      <workItem from="1726139849715" duration="413000" />
+      <workItem from="1726140269413" duration="3750000" />
+      <workItem from="1727081097372" duration="10179000" />
+      <workItem from="1727159753180" duration="4988000" />
+      <workItem from="1727164838107" duration="16881000" />
+      <workItem from="1727243263611" duration="638000" />
+      <workItem from="1727245973077" duration="1982000" />
+      <workItem from="1727268858142" duration="590000" />
+      <workItem from="1727337185012" duration="3475000" />
+      <workItem from="1727421667191" duration="1986000" />
+      <workItem from="1727436235784" duration="614000" />
+      <workItem from="1727545674118" duration="1432000" />
+      <workItem from="1727548972436" duration="502000" />
+      <workItem from="1727806861720" duration="1283000" />
+      <workItem from="1727850348756" duration="2896000" />
+      <workItem from="1727976670337" duration="4948000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
