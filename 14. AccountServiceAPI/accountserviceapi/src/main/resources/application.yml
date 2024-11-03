@@ -1,0 +1,61 @@
+spring:
+  application.name: AccountsService
+  profiles.active: dev
+
+---
+
+spring:
+  sql.init.mode: always  #this instruction preloads the sql scripts
+  config.activate.on-profile: dev
+  devtools.restart.enabled: true
+  datasource:
+    url: "jdbc:h2:mem:accountsdb"
+    driverClassName: org.h2.Driver
+    username: accounts_user
+    password: accounts_password
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+      generate-ddl: true
+      hbm2ddl.auto: create
+    defer-datasource-initialization: true
+  h2:
+    console.enabled: true
+    console.path: /h2-ui
+
+server:
+  port: 9900
+
+debug: true
+logging:
+  path: /var/logs/
+  file: /var/logs/accounts.log
+  level:
+    root: INFO
+
+---
+
+spring:
+  sql.init.mode: never  #this instruction reject the preload of the sql scripts
+  config.activate.on-profile: prod
+  devtools.restart.enabled: true
+  datasource:
+    url: "jdbc:mysql://127.0.0.1:3306/accounts_db"
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: accounts_user
+    password: accounts_password
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: update
+      generate-ddl: true
+    defer-datasource-initialization: true
+
+server:
+  servlet.contextPath: /api/v1
+  port: 9943
+
+logging.level.root: ERROR
